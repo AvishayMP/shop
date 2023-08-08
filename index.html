@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Store</title>
+    <script src="./prg.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="top-header" class="fx-row bg-lightpink">
+            Inventory management
+            <div>
+                <i class="material-icons" onclick="showCards('home')">home</i>
+                <i class="material-icons" onclick="addPage()">add_circle</i>
+            </div>
+        </div>
+        <div id="filter-line" class="fx-row bg-pink">
+            <div id="categories" class="fx-row"> </div>
+            <label id="search-box" class="fx-row">
+                <input id="filter-txt" type="search" placeholder="Search" autocomplete="on">
+                <button id="filter-submit"><i class="material-icons">search</i></button>
+            </label>
+        </div>
+    </header>
+
+    <main class="bg-lightpink">
+        <h1 class="mainTitle fx-row">Products:</h1>
+        <div id="show-zone" class="fx-row"></div>
+    </main>
+
+    <footer class="fx-row">
+        Tecnical support:
+        <span class="material-icons">phone</span>
+        + 1.555.555.5555
+    </footer>
+</body>
+
+</html>
+<!-- 
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/AvishayMP/shop.git
+    git push -u origin main 
+-->
