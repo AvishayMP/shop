@@ -453,7 +453,6 @@ const showCards = (filter) => {
 }
 const inputChange = (e) => {
     filterStr = e.target.value;
-
 }
 // end home.
 
